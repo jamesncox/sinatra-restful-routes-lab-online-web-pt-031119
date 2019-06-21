@@ -4,6 +4,6 @@ Cook time: <%= @recipe.cook_time %>
 
 <form action="/recipes/<%= @recipe.id %>" method="POST">
   <input type="hidden" name="_method" value="DELETE" />
-  <input type="submit" name="delete" />
+  <input type="submit" id="delete" name="delete" />
   
 </form>
